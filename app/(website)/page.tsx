@@ -6,10 +6,14 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import PricingSection from '@/components/sections/PricingSection';
 import FAQSection from '@/components/sections/FAQSection';
 import FinalCTA from '@/components/sections/FinalCTA';
+import { OrganizationSchema, FAQSchema, ProductSchema } from '@/components/StructuredData';
 
 export default function LandingPage() {
   return (
     <>
+      <OrganizationSchema />
+      <FAQSchema />
+      <ProductSchema />
       <Hero />
       <ReptilianSection />
       <LimbicSection />

@@ -162,10 +162,10 @@ export default function Hero() {
             <Image
               src="/dashboard_preview_mockup_1763716121179.png"
               alt="Sam AI Dashboard Preview"
-              width={1200}
-              height={800}
-              className="w-full h-auto"
+              fill
               priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-contain"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-odi-dark/50 to-transparent pointer-events-none" />
           </div>
