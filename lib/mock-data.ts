@@ -115,7 +115,7 @@ export const mockBookings: Booking[] = [
         clientName: 'David Smith',
         service: 'Maintenance',
         date: subDays(new Date(), 1),
-        status: 'completed',
+        status: 'confirmed',
         amount: '$300',
     },
     {
